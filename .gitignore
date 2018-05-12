@@ -1,0 +1,9 @@
+/.idea/*
+/bot/node_modules/*
+/.env
+/vendor/
+/storage/logs/
+/storage/framework/
+/access.log
+/error.log
+/SQL.sql
