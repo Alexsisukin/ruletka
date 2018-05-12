@@ -12,9 +12,9 @@ class LoginController extends Controller
 {
     public function vklogin(Request $r)
     {
-        $client_id = '6472291';
-        $client_secret = 'zAUx1pAGXXvbD2dmctkA';
-        $redirect_uri = 'ruletka.loc';
+        $client_id = env('VK_CLIENT_ID');
+        $client_secret = env('VK_CLIENT_SECRET');
+        $redirect_uri = env('VK_REDIRECT_URI');
 
         if (!is_null($r->code)) {
 
@@ -25,31 +25,30 @@ class LoginController extends Controller
                 $info = json_decode($this->curl('https://api.vk.com/method/users.get?user_ids&fields=photo_200&access_token=' . $obj->access_token . '&v=V'), true);
 
 
-
-  $user = User::where('login2', $info['response'][0]['uid'])->first();
-                if($user == NULL) {
-                  if(array_key_exists('photo_200', $info['response'][0])){
-                      $photo = $info['response'][0]['photo_200'];
-                  }else{
-                    $photo = 'http://vk.com/images/camera_200.png';
-                  }
+                $user = User::where('login2', $info['response'][0]['uid'])->first();
+                if ($user == NULL) {
+                    if (array_key_exists('photo_200', $info['response'][0])) {
+                        $photo = $info['response'][0]['photo_200'];
+                    } else {
+                        $photo = 'http://vk.com/images/camera_200.png';
+                    }
                     $user = User::create([
                         'username' => $info['response'][0]['last_name'] . ' ' . $info['response'][0]['first_name'],
                         'avatar' => $photo,
-                        'login' => 'id'.$info['response'][0]['uid'],
+                        'login' => 'id' . $info['response'][0]['uid'],
                         'login2' => $info['response'][0]['uid'],
                         'ref_code' => $this->generate(),
                         'nick' => $this->generate_name()
                     ]);
                 } else {
-                  if(array_key_exists('photo_200', $info['response'][0])){
-                      $photo = $info['response'][0]['photo_200'];
-                  }else{
-                    $photo = 'http://vk.com/images/camera_200.png';
-                  }
+                    if (array_key_exists('photo_200', $info['response'][0])) {
+                        $photo = $info['response'][0]['photo_200'];
+                    } else {
+                        $photo = 'http://vk.com/images/camera_200.png';
+                    }
                     $user->username = $info['response'][0]['last_name'] . ' ' . $info['response'][0]['first_name'];
                     $user->avatar = $photo;
-                    $user->login = 'id'.$info['response'][0]['uid'];
+                    $user->login = 'id' . $info['response'][0]['uid'];
                     $user->login2 = $info['response'][0]['uid'];
                     $user->save();
                 }

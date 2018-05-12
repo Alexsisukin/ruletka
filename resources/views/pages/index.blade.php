@@ -194,7 +194,7 @@ VK.Widgets.CommunityMessages("vk_community_messages", 148417273, {expandTimeout:
                 
                 
                      <div class="auth-block">
-                    <a href="https://vk.com/ventorpublick">
+                    <a href="https://vk.com/">
                         <div class="button" style="    margin-left: 25px;"><span>Раздаём игры</span> <b><img src="/images/icons/key_big.png" style="
                                            height: 25px;
                                                position: absolute;
