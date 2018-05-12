@@ -7,4 +7,4 @@
 /access.log
 /error.log
 /SQL.sql
-/bootstrap/cache/
+/bootstrap/cache/*
