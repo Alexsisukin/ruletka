@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="/css/style.css?v=14" />
     <link rel="shortcut icon" href="/images/favicon.ico" />
     <script src="https://vk.com/js/api/openapi.js?135" type="text/javascript"></script>
-    <meta property="og:title" content="keysongabee.xyz - Выиграй топовую игру всего за 59р!" />
+    <meta property="og:title" content="fastkey.su - Выиграй топовую игру всего за 59р!" />
     <meta property="og:image" content="https://cheapkeys.ru/images/logoog.png" />
     <meta property="og:url" content="https://cheapkeys.ru/" />
     <script>
@@ -289,7 +289,7 @@ VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
 </div>
 </div>
 <div class="footer full">
-    <h1><em></em>keysongabee.xyz - рандом ключи стим (Steam)</h1>
+    <h1><em></em>fastkey.su - рандом ключи стим (Steam)</h1>
     <p>На нашем сайте вы можете открыть категории или кейсы с играми по самым выгодным ценам.</p>
     <p>Все операции происходят автоматически, без вмешательства администрации.</p>
     <br>

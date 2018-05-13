@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>keysongabee.xyz - Выиграй топовую игру всего за 59р!</title>
+    <title>fastkey.su - Выиграй топовую игру всего за 59р!</title>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans"/>
     <link rel="stylesheet" type="text/css" href="/css/style.css?v=14" />
     <link rel="shortcut icon" href="/images/favicon.ico" />
@@ -538,7 +538,7 @@
 </div>
 <div class="footer full">
 
-    <h1><em></em>keysongabee.xyz - рандом ключи стим (Steam)</h1>
+    <h1><em></em>fastkey.su - рандом ключи стим (Steam)</h1>
     <p>На нашем сайте вы можете открыть категории или кейсы с играми по самым выгодным ценам.</p>
     <p>Все операции происходят автоматически, без вмешательства администрации.</p>
     <br>
