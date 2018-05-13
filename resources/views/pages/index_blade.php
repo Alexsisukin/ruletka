@@ -519,12 +519,7 @@ $spisok = array('<img src="/images/cheapkey/Ace_of_Spades.jpg" alt="Ace of Spade
     <h1><em>Keys</em>UP.ru - рандом ключи стим (Steam)</h1>
     <p>На нашем сайте вы можете открыть категории или кейсы с играми по самым выгодным ценам.</p>
     <p>Все операции происходят автоматически, без вмешательства администрации.</p>
-    <br>
-    <br>
-    <a href="https://webmoney.ru"><img src="/images/88x31_wm_blue_on_white_ru.png">
-    </a>
-    <a href="https://passport.webmoney.ru/asp/certview.asp?wmid=217710800979" target="_blank"><img src="/images/passportwebmoney.png" alt="Здесь находится аттестат нашего WM идентификатора 217710800979" border="0">
-    </a>
+
 </div>
 </div>
 
