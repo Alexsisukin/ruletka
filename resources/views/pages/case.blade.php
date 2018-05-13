@@ -199,7 +199,7 @@
                             </div>
                         </div>
                         <div class="header-nav">
-                            <a href="https://vk.com/cheapkeysru" target="_blank" class="btn-header btn-vk">Мы вконтакте</a>
+                            <a href="https://vk.com/fast___key" target="_blank" class="btn-header btn-vk">Мы вконтакте</a>
                             <a href="/demo" target="_blank" class="btn-header btn-open-free">Demo</a>
                         </div>
                     </div>

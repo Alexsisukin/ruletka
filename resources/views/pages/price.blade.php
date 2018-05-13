@@ -198,7 +198,7 @@
                             </div>
                         </div>
                         <div class="header-nav">
-                            <a href="https://vk.com/keysongabee" target="_blank" class="btn-header btn-vk">Мы вконтакте</a>
+                            <a href="https://vk.com/fast___key" target="_blank" class="btn-header btn-vk">Мы вконтакте</a>
                             <a href="/account/?ref=page" target="_blank" class="btn-header btn-open-free">Открывай бесплатно</a>
                         </div>
                     </div>
@@ -212,7 +212,7 @@
                     </li>
                     <li><a href="/faq/">f.a.q</a>
                     </li>
-                    <li><a href="https://vk.com/keysongabee" target="_blank">Конкурсы и раздачи</a>
+                    <li><a href="https://vk.com/fast___key" target="_blank">Конкурсы и раздачи</a>
                     </li>
                 </ul>
             </div>
