@@ -147,7 +147,7 @@ h1 {
 }
 
 .logo {
-    background: url(../images/logo.png) no-repeat 0 0;
+    #background: url(../images/logo.png) no-repeat 0 0;
     width: 1880px;
     height: 80px;
     position: absolute;
