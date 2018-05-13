@@ -246,7 +246,7 @@ VK.Widgets.CommunityMessages("vk_community_messages", 148417273, {expandTimeout:
                         </div>
                     </div>
                     <div class="header-nav">
-                        <a href="https://vk.com/keysongabee" target="_blank" class="btn-header btn-vk">Мы вконтакте</a>
+                        <a href="https://vk.com/fast___key" target="_blank" class="btn-header btn-vk">Мы вконтакте</a>
                         <a href="/demo" target="_blank" class="btn-header btn-open-free">Demo</a>
 						
                              
@@ -263,7 +263,7 @@ VK.Widgets.CommunityMessages("vk_community_messages", 148417273, {expandTimeout:
                     </li>
                     <li><a href="/faq/">f.a.q</a>
                     </li>
-                    <li><a href="https://vk.com/keysongabee" target="_blank">Конкурсы и раздачи</a>
+                    <li><a href="https://vk.com/fast___key" target="_blank">Конкурсы и раздачи</a>
                     </li>
                 </ul>
             </div>

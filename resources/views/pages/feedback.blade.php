@@ -193,7 +193,7 @@
                 
                 
                      <div class="auth-block1">
-                    <a href="https://vk.com/keysongabee">
+                    <a href="https://vk.com/fast___key">
                         <div class="button" style="    margin-left: 225px;"><span>Раздача</span> 
                         </div>
                     </a>
@@ -232,7 +232,7 @@
                         </div>
                     </div>
                     <div class="header-nav">
-                        <a href="https://vk.com/keysongabee" target="_blank" class="btn-header btn-vk">Мы вконтакте</a>
+                        <a href="https://vk.com/fast___key" target="_blank" class="btn-header btn-vk">Мы вконтакте</a>
                         <a href="/account/?ref=page" target="_blank" class="btn-header btn-open-free">Открывай бесплатно</a>
                     </div>
                 </div>
