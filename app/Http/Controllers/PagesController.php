@@ -16,11 +16,11 @@ use Redirect;
 class PagesController extends Controller
 {
     //const merchant_id = '59723'; //free-kassa34257
-    const merchant_id = '34257'; //free-kassa34257
+    const merchant_id = '75438'; //free-kassa34257
     //const merchant_secret_1 = '3gwt040e'; //free-kassahcswwb8r
-    const merchant_secret_1 = 'hcswwb8r'; //free-kassahcswwb8r
+    const merchant_secret_1 = 'lj705pqc'; //free-kassahcswwb8r
     //const merchant_secret_2 = '3lmo6icw'; //free-kassaqdqgy649
-    const merchant_secret_2 = 'qdqgy649'; //free-kassaqdqgy649
+    const merchant_secret_2 = 'r41e4zsa'; //free-kassaqdqgy649
 
     const DEF_CASE_PRICE = 59;
     const RANDOM_PROCENT = 5;
