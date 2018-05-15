@@ -1,35 +1,9 @@
 
 $(document).ready(function() {
-    window.liveUrl = 'http://92.63.105.91:2021';
-    console.log('te');
-    var socket = io(window.liveUrl, {
-        'max reconnection attempts':Infinity,
-        'transports': ['websocket', 'polling', 'flashsocket'],
-        'sync disconnect on unload': true
-    });
+
 
     window.statbox = {'online':0, 'users':0, 'games':0};
-    socket.emit('update2');
-    socket.on('statbox', function (data_statbox) {
-        console.log(data_statbox);
-        var csns = $.animateNumber.numberStepFactories.separator(',');
-        if (window.statbox['online'] != data_statbox[0]) {
-            $('#online').animateNumber({ number: data_statbox[0], numberStep: csns }, 500);
-            window.statbox['online'] = data_statbox[0];
-        }
 
-        if (window.statbox['users'] != data_statbox[1]) {
-            $('#users').animateNumber({ number: data_statbox[1], numberStep: csns }, 500);
-            window.statbox['users'] = data_statbox[1];
-        }
-
-        if (window.statbox['games'] != data_statbox[2]) {
-            $('#cases').animateNumber({ number: data_statbox[2], numberStep: csns }, 1000);
-            window.statbox['games'] = data_statbox[2];
-        }
-
-
-    });
 
 
     $("#promo_btn").click(function() {
@@ -51,27 +25,7 @@ $(document).ready(function() {
         });
     });
 
-    socket.on('last games', function (data_last_games) {
-        var live_list = '';
-        var data_last_game = '';
-        var live_color = 1;
-        $.each(data_last_games, function(i) {
 
-            data_last_game = data_last_games[i];
-
-            if (data_last_game['user'] !== undefined) {
-
-                live_list += '<li>'+
-                    '<span class="slider_images">'+
-                    '<img src="'+data_last_game['image']+'" alt=""></span>'+
-                    '<span class="slider_login ell" title="'+data_last_game['name']+'">'+data_last_game['name']+'</span>'+
-                '</li>';
-            }
-
-        });
-
-        $("#slider").html('<ul>' + live_list + '</ul>');
-    });
 
     var ref = getUrlVars()["ref"];
     if (ref == "page") {
