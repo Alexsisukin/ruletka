@@ -514,6 +514,7 @@ VK.Widgets.CommunityMessages("vk_community_messages", 148417273, {expandTimeout:
     <p>Все операции происходят автоматически, без вмешательства администрации.</p>
     <br>
     <br>
+    <a href="//www.free-kassa.ru/"><img src="//www.free-kassa.ru/img/fk_btn/32.png"></a>
 </div>
 </div>
 
